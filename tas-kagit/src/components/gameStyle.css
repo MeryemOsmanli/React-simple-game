@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  background-color: hotpink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game_box {
+  text-align: center;
+  border: 1px solid black;
+  padding: 40px;
+}
+.game_box h1 {
+  margin-bottom: 3rem;
+  color: white;
+}
+.game_btns {
+  display: flex;
+  gap: 50px;
+  margin: 20px;
+}
+.game_btns button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+.game_text {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 20px;
+}
